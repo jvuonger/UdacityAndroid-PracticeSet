@@ -7,12 +7,11 @@
     tools:context="com.jamesvuong.happybirthday.MainActivity">
 
     <ImageView
-        android:id="@+id/background_image_view"
-        android:scaleType="centerCrop"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/birthday_background"
-        android:contentDescription="Birthday Background"
+        android:src="@drawable/birthday_cupcake"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
         />
 
     <TextView
@@ -23,6 +22,7 @@
         android:textAppearance="@android:style/TextAppearance.Large"
         android:textColor="#FFFFFF"
         android:padding="20dp"
+        android:textStyle="bold"
         android:fontFamily="sans-serif-light"
 
         />
@@ -37,6 +37,7 @@
         android:textAppearance="@android:style/TextAppearance.Large"
         android:textColor="#FFFFFF"
         android:padding="20dp"
+        android:textStyle="bold"
         android:fontFamily="sans-serif-light"
         />
 
